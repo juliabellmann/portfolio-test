@@ -33,7 +33,7 @@ export default function Home() {
             <a href="#projects">Projekte</a>
             <a href="#skills">Skills</a>
             <a href="#contact">Kontakt</a>
-            <a className="nav-github" href="https://github.com/" target="_blank" rel="noreferrer">
+            <a className="nav-github" href="https://github.com/juliabellmann/" target="_blank" rel="noreferrer">
               GitHub <Arrow />
             </a>
           </nav>
@@ -44,14 +44,14 @@ export default function Home() {
         <section className="hero section">
           <div className="container hero-grid">
             <div className="hero-copy">
-              <p className="eyebrow">WEB DEVELOPMENT</p>
+              <p className="eyebrow">WEB DEVELOPMENT & WEB DESIGN</p>
               <h1>
-                Ich entwickle
+                Ich entwickle mit Leidenschaft
                 <br />
                 <span>moderne Webanwendungen.</span>
               </h1>
               <p className="hero-lead">
-                Quereinsteigerin mit Schwerpunkt JavaScript, React und Next.js —
+                Quereinsteigerin mit Frontend sowie Backend Erfahrung —
                 mit eigenen Full-Stack-Projekten und einem Hintergrund im Bauwesen.
               </p>
 
@@ -65,10 +65,14 @@ export default function Home() {
               </div>
 
               <div className="hero-stack">
+                <span>HTML</span>
                 <span>JavaScript</span>
                 <span>React</span>
                 <span>Next.js</span>
-                <span>Supabase</span>
+                <span>CSS-Frameworks</span>
+                <span>PostgreSQL</span>
+                <span>NoSQL</span>
+                <span>API</span>
               </div>
             </div>
 
@@ -105,14 +109,14 @@ export default function Home() {
                 <h2>Praxis statt nur Theorie.</h2>
               </div>
               <p>
-                Eigene Anwendungen zeigen am besten, wie ich Probleme analysiere,
+                Mit meinen eigenen Anwendungen möchte ich zeigen, wie ich Probleme analysiere,
                 Lösungen entwickle und Technologien miteinander verbinde.
               </p>
             </div>
 
             <article className="featured-project">
               <div className="project-preview large-preview">
-                <div className="browser-bar"><i /><i /><i /><span>dateneingang-app</span></div>
+                <div className="browser-bar"><i /><i /><i /><span>dateneingang-template-app</span></div>
                 <div className="mock-dashboard">
                   <div className="mock-sidebar">
                     <b>JB</b>
@@ -122,7 +126,7 @@ export default function Home() {
                     <span />
                   </div>
                   <div className="mock-content">
-                    <div className="mock-title">Dateneingang</div>
+                    <div className="mock-title">Dateneingang Template</div>
                     <div className="mock-cards">
                       <div />
                       <div />
@@ -248,8 +252,8 @@ export default function Home() {
                 <h2>Von der Idee zur Anwendung.</h2>
               </div>
               <p>
-                Ein strukturierter Entwicklungsprozess hilft mir, Anforderungen
-                verständlich zu machen und Lösungen Schritt für Schritt umzusetzen.
+             Ich strukturiere Anforderungen klar und entwickle Lösungen Schritt für Schritt. Dabei optimiere ich Prozesse, vereinfache die Anwendung für Nutzer und reduziere gezielt potenzielle Fehlerquellen.
+
               </p>
             </div>
 
@@ -331,7 +335,7 @@ export default function Home() {
               <a className="button button-dark" href="mailto:deine-email@example.com">
                 Kontakt aufnehmen
               </a>
-              <a className="button button-light" href="https://github.com/" target="_blank" rel="noreferrer">
+              <a className="button button-light" href="https://github.com/juliabellmann/" target="_blank" rel="noreferrer">
                 GitHub <Arrow />
               </a>
             </div>
@@ -349,7 +353,7 @@ export default function Home() {
             </div>
           </div>
           <div className="footer-links">
-            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://github.com/juliabellmann/" target="_blank" rel="noreferrer">GitHub</a>
             <a href="#" aria-label="LinkedIn Platzhalter">LinkedIn</a>
             <a href="mailto:deine-email@example.com">E-Mail</a>
           </div>

@@ -8,7 +8,7 @@ export const projects = [
     description:
       "Eine webbasierte Anwendung zur Digitalisierung eines bestehenden Datenerfassungsprozesses und zur Ablösung manueller Excel-Abläufe.",
     problem:
-      "Ein bestehender Arbeitsprozess basierte auf umfangreichen Excel-Dateien und manueller Dateneingabe. Informationen mussten strukturiert erfasst, geprüft und wiederholt verarbeitet werden.",
+      "Ein bestehender Arbeitsprozess basierte auf einem einfachen Excel-Formular mit manueller Dateneingabe und loser Dateilieferung. Die Informationen sollen jetzt strukturiert erfasst, geprüft und wiederholt verarbeitet werden.",
     solution:
       "Ich entwickelte eine eigene Webanwendung mit React und Next.js. Daten werden strukturiert über Supabase/PostgreSQL gespeichert. Authentifizierung, Rollen, Datei-Uploads, Entwürfe und automatisierte Berechnungen sind Bestandteil der Anwendung.",
     stack: ["JavaScript", "React", "Next.js", "Supabase", "PostgreSQL", "Vercel"],
@@ -18,14 +18,16 @@ export const projects = [
       "Datenverwaltung und Entwurfsstatus",
       "Geschützte Datei-Uploads",
       "Automatische Flächen- und Kostenberechnungen",
-      "Deployment über Vercel"
+      "Deployment über Vercel",
+      "Pflichtfelder",
+      "Eingabevalidierung"
     ],
     demo: "https://db-dateneingang.vercel.app/",
-    github: "https://github.com/"
+    // github: "https://github.com/"
   },
   {
     slug: "nabu-randomizer",
-    title: "NABU Bird Randomizer",
+    title: "NABU Vogel Zufallsgenerator",
     subtitle: "Next.js Web Application",
     type: "own",
     featured: false,
@@ -35,14 +37,14 @@ export const projects = [
       "Viele Vogelarten sollten spielerisch entdeckt werden können, ohne dass bereits gesehene Arten nach einem Reload verloren gehen.",
     solution:
       "Eine Next.js-Anwendung mit Supabase speichert den Fortschritt serverseitig und trennt zufällige Auswahl, Datenhaltung und Benutzeroberfläche.",
-    stack: ["JavaScript", "React", "Next.js", "Supabase"],
+    stack: ["JavaScript", "React", "Next.js", "API"],
     features: ["Zufällige Vogel-Auswahl", "Persistenter Fortschritt", "Datenbankanbindung"],
-    demo: "#",
-    github: "https://github.com/"
+    demo: "https://schnegel-vogel-randomizer.vercel.app/",
+    github: "https://github.com/juliabellmann/schnegel-vogel-randomizer"
   },
   {
     slug: "baking-compendium",
-    title: "Baking Compendium",
+    title: "Back-Kompendium",
     subtitle: "Recipe Web Application",
     type: "own",
     featured: false,
@@ -54,8 +56,8 @@ export const projects = [
       "Eine komponentenbasierte Next.js-Anwendung mit dynamischer Berechnung von Zutatenmengen und klarer Rezeptnavigation.",
     stack: ["JavaScript", "React", "Next.js", "CSS"],
     features: ["Dynamische Portionen", "Komponentenbasierte UI", "Responsive Design"],
-    demo: "#",
-    github: "https://github.com/"
+    demo: "https://the-new-baking-compendium-git-main-juliabellmanns-projects.vercel.app/",
+    github: "https://github.com/juliabellmann/baking-compendium"
   }
 ];
 
